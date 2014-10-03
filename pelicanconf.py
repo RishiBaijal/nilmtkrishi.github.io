@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Rishi Baijal'
 SITENAME = u'Nilmtk Blog'
-SITEURL = ''
+#SITEURL = ''
 
 PATH = 'content'
 
@@ -29,5 +29,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
+PLUGIN_PATH='/Users/rishi/Documents/Master_folder/pelican-plugins'
+PLUGINS=['assets', 'liquid_tags']
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
