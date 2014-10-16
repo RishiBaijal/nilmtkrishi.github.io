@@ -24,7 +24,8 @@ TRANSLATION_FEED_ATOM = None
 #         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('Facebook', 'https://www.facebook.com/rishi.baijal?fref=ts'),)
+SOCIAL = (('Facebook', 'https://www.facebook.com/rishi.baijal?fref=ts'),
+		('Github', 'https://github.com/RishiBaijal'))
 
 DEFAULT_PAGINATION = 10
 
