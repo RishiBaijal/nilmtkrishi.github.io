@@ -61,3 +61,4 @@ Kolter's algorithm
 1. This is similar to Parson's algorithm in that it uses Hidden Markov Models in order to disaggregate the electricity consumption of the household.
 2. It analyses the ON cycle of the appliance, and then it tries to recognize the appliance by analysing its on cycle. (It models this data as an HMM)
 
+In the next post, I will discuss the evaluation methodology followed by the NILM-Eval framework. 
