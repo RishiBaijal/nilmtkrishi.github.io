@@ -41,14 +41,23 @@ Parson's algorithm
 
 1. It relies on Hidden Markov Models (HMMs) and the Viterbi algorithm inorder to disaggregate the electricity consumption of a household.
 2. It determines the most likely sequences of states 
-3. It uses a semi-supervised learning process in order to determine the transition probabilities and the power demand of each appliance.
-4. It evaluates 
+3. It uses a semi-supervised learning process in order to determine the transition probabilities and the power demand of each appliance. 
 
 Baranski's algorithm
 -------------------
 
+1. It finds patterns in the electric usage of a house and attributes those patterns to individual appliances.
+2. It is unsupervised, and therefore it has the advantage of being able to operate without knowing what appliances are there in the household.
+
 Weiss' algorithm
 ----------------
 
+1. Weiss' algortihm depends on switching events from the household electricity consumption and attributes that to the best match in a signature database.
+2. Weiss' algorithm has been treated as a supervised learning approach.
+
 Kolter's algorithm
 ------------------
+
+1. This is similar to Parson's algorithm in that it uses Hidden Markov Models in order to disaggregate the electricity consumption of the household.
+2. It analyses the ON cycle of the appliance, and then it tries to recognize the appliance by analysing its on cycle. (It models this data as an HMM)
+
