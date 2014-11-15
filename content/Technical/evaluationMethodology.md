@@ -30,3 +30,10 @@ As I have stated earlier, the ECO dataset has been used in testing the NILM-Eval
 2. The aggregate electricity consumption available with the ECO dataset is very detailed because it contains measurements of real and reactive power.
 3. The data can be colected at a freqwuency of 1 Hz.
 4. ECO is the only dataset that contains occupancy information about the households.
+
+Comparison between NILMTK and NILM-Eval
+----------------------------------------
+
+The similarity between these two frameworks is the fact that they both are used to monitor the electricity consumption of a particular household in a way that does not feel meddlesome. While the focus of NILMTK seems to be on compatibility and ease of usage (there is even an issue open on github that says that NILMTK installation is difficult for the average user and it), NILM-Eval focuses more on the algorithms that are to be used in order to accomplish this task. The birth of NILM-Eval was due to the lack of a framework that was good enough to provide a yardstick to measure the performance of algorithms that are concerned with non-intrusive load monitoring. As opposed to this, NILMTK is a framework that provides rich metadata support and has converters for the various datasets that are out there. On the other hand, NILM-Eval has mostly been tested on the ECO dataset. 
+
+Both frameworks could possibly learn from each other. NLMTK could take inspiration from NILM-Eval and use a more algorithmic approach (although doing that in python would be dangerously tedious), while NILM-Eval could increase its metadata support in order to support a greater amount of compatibility.
