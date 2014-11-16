@@ -11,6 +11,7 @@ We saw the difficulties presented in the previous post. I will now go over some 
 1. It enables the evaluation of NILM algorithms on different datasets, households, granularities, time periods and specific algorithm parameters.
 2. It allows the user to repeat the experiments performed by others with little effort, evaluate algorithms on a new data-set and fine tune the parameters in order to optimize the performance of an algorithm in a particular setting.
 
+
 Metrics Evaluated
 -----------------
 
@@ -21,6 +22,7 @@ NILM-Eval evalulates the following metrics in order to evaluate the performance 
 3. Recall
 4. F1 score.
 
+
 Dataset used
 ------------
 
@@ -30,6 +32,7 @@ As I have stated earlier, the ECO dataset has been used in testing the NILM-Eval
 2. The aggregate electricity consumption available with the ECO dataset is very detailed because it contains measurements of real and reactive power.
 3. The data can be colected at a freqwuency of 1 Hz.
 4. ECO is the only dataset that contains occupancy information about the households.
+
 
 Comparison between NILMTK and NILM-Eval
 ----------------------------------------
